@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <title>Nibble15 Contact</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
+    <![endif]-->
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <h1>N15</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="*">Parts</a>
+            <ul>
+              <li><a href="core_componets.html">Core Componets</a></li>
+              <li><a href="storage.html">Storage</a></li>
+              <li><a href="other.html">Other</a></li>
+            </ul>
+        </li>
+        <li><a href="*">Videos</a>
+            <ul>
+              <li><a href="how_to_pc.html">Building a PC</a></li>
+              <li><a href="os.html">OS Instaltion</a></li>
+            </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="tpb">
+        <h2>Contact Us</h2>
+        <p>
+          We'd love to hear from you
+        </p>
+        <form action="http://www.youmakeithappen.net/instruction/html/contact.php" method="post">
+	      <label for="name">*Name:</label>
+		  <input type="text" name="name" id="name" required="">
+		  <label for="email">*E-mail:</label>
+		  <input type="email" name="email" id="email" required="">
+		  <label for="phone_number">*Phone Number:</label>
+		  <input type="tel" name="phone_number" id="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
+		  <label for="message">*Message:</label>
+		  <textarea name="message" id="message" required=""></textarea>
+		  <input type="submit" Value="Apply Now">
+	    </form>
+      </div>
+    </main>
+    <footer>
+      <small>Copyright &copy; Nibble15</small>
+    </footer>
+  </div>
+</body>
+</html>
